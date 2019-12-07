@@ -1,5 +1,6 @@
 *{
     font-family:sans-serif!important;
+    font-size:1em;
 }
 
 /* Sidebar Styles */
@@ -18,3 +19,21 @@ li,a{
     border-bottom: 1px solid #a2a9b1;
     /*background-image:linear-gradient(to right, #a2a9b1 , #eee);*/
 }
+
+.navtabstyle{
+    border-bottom:2px solid #cedff2;   
+}
+
+.navitemstyle{
+    border-right:1px solid #b5d4f7;
+}
+
+.bg-tab-blue{
+    /*background-color:#cedff2;*/
+    background-image: linear-gradient(#fff, #cedff2);
+}
+
+.text-none{
+    color:#cedff2;
+}
+
