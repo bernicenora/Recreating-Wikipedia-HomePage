@@ -4,14 +4,144 @@
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
+    <!--Title Icon-->
+    <link rel="title icon" type="image/ico" href="images/wikipedia-title.ico">
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-
+    <script defer src="https://use.fontawesome.com/releases/v5.0.13/js/all.js" integrity="sha384-xymdQtn1n3lH2wcu0qhcdaOpQwyoarkgLVxC/wZ5q7h9gHtxICrpcaSUfygqZGOe" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
     <title>Re-Creating Wikipedia</title>
   </head>
   <body>
+    <!--Navbar-->
+    <nav class="navbar navbar-expand-md navbar-light m-0 p-0">
+      <button class="navbar-toggler ml-auto bg-light" type="button" data-toggle="collapse" data-target="#WikiNavBar">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="WikiNavBar">
+        <div class="container-fluid">
+          <!--Sidebar-->
+          <div class="row">
+            <div class="col-xl-2 col-lg-3 col-md-3 sidebar fixed-top">
+              <div>
+                <img src="images/wiki-logo.png" alt="Wikipedia Logo" class="imgstyle mb-4" width="150px">
+              </div>
+              <ul class="navbar-nav flex-column">
+                <li class="nav-item"><a href="#" class="ml-3">Main page</a></li>
+                <li class="nav-item"><a href="#" class="ml-3">Contents</a></li>
+                <li class="nav-item"><a href="#" class="ml-3">Featured content</a></li>
+                <li class="nav-item"><a href="#" class="ml-3">Current events</a></li>
+                <li class="nav-item"><a href="#" class="ml-3">Random article</a></li>
+                <li class="nav-item"><a href="#" class="ml-3">Donate to Wikipedia</a></li>
+                <li class="nav-item mb-3"><a href="#" class="ml-3">Wikipedia store</a></li>
+                
+                <li class="nav-item ml-3 bottom-border mb-3">Interaction</li>
+                <li class="nav-item"><a href="#" class="ml-3">Help</a></li>
+                <li class="nav-item"><a href="#" class="ml-3">About Wikipedia</a></li>
+                <li class="nav-item"><a href="#" class="ml-3">Community portal</a></li>
+                <li class="nav-item"><a href="#" class="ml-3">Recent changes</a></li>
+                <li class="nav-item mb-3"><a href="#" class="ml-3">Contact page</a></li>
 
+                <li class="nav-item ml-3 bottom-border mb-3">Tools</li>
+                <li class="nav-item"><a href="#" class="ml-3">What links here</a></li>
+                <li class="nav-item"><a href="#" class="ml-3">Related changes</a></li>
+                <li class="nav-item"><a href="#" class="ml-3">Upload file</a></li>
+                <li class="nav-item"><a href="#" class="ml-3">Special pages</a></li>
+                <li class="nav-item"><a href="#" class="ml-3">Permanent link</a></li>
+                <li class="nav-item"><a href="#" class="ml-3">Page information</a></li>
+                <li class="nav-item mb-3"><a href="#" class="ml-3">Wikidata item</a></li>
+
+                <li class="nav-item ml-3 bottom-border mb-3">In other projects</li>
+                <li class="nav-item"><a href="#" class="ml-3">Wikimedia Commons</a></li>
+                <li class="nav-item"><a href="#" class="ml-3">MediaWiki</a></li>
+                <li class="nav-item"><a href="#" class="ml-3">Meta-Wiki</a></li>
+                <li class="nav-item"><a href="#" class="ml-3">Wikispecies</a></li>
+                <li class="nav-item"><a href="#" class="ml-3">Wikibooks</a></li>
+                <li class="nav-item"><a href="#" class="ml-3">Wikidata</a></li>
+                <li class="nav-item"><a href="#" class="ml-3">Wikimania</a></li>
+                <li class="nav-item"><a href="#" class="ml-3">Wikinews</a></li>
+                <li class="nav-item"><a href="#" class="ml-3">Wikiquote</a></li>
+                <li class="nav-item"><a href="#" class="ml-3">Wikisource</a></li>
+                <li class="nav-item"><a href="#" class="ml-3">Wikiversity</a></li>
+                <li class="nav-item"><a href="#" class="ml-3">Wikivoyage</a></li>
+                <li class="nav-item mb-3"><a href="#" class="ml-3">Wicktionary</a></li>
+
+                <li class="nav-item ml-3 bottom-border mb-3">Print/export</li>
+                <li class="nav-item"><a href="#" class="ml-3">Create a book</a></li>
+                <li class="nav-item"><a href="#" class="ml-3">Download as PDF</a></li>
+                <li class="nav-item mb-3"><a href="#" class="ml-3">Printable version</a></li>
+
+                <div class="bottom-border d-flex justify-content-between">
+                  <li class="nav-item ml-3 mb-3">Languages</li>
+                  <a href="#" class="text-muted"><i class="fa fa-cogs"></i></a>
+                </div>
+                <li class="nav-item"><a href="#" class="ml-3">العربية</a></li>
+                <li class="nav-item"><a href="#" class="ml-3">Български</a></li>
+                <li class="nav-item"><a href="#" class="ml-3">Bosanski</a></li>
+                <li class="nav-item"><a href="#" class="ml-3">Català</a></li>
+                <li class="nav-item"><a href="#" class="ml-3">Čeština</a></li>
+                <li class="nav-item"><a href="#" class="ml-3">Dansk</a></li>
+                <li class="nav-item"><a href="#" class="ml-3">Deutsch</a></li>
+                <li class="nav-item"><a href="#" class="ml-3">Eesti</a></li>
+                <li class="nav-item"><a href="#" class="ml-3">Ελληνικά</a></li>
+                <li class="nav-item"><a href="#" class="ml-3">Español</a></li>
+                <li class="nav-item"><a href="#" class="ml-3">Esperanto</a></li>
+                <li class="nav-item"><a href="#" class="ml-3">Euskara</a></li>
+                <li class="nav-item"><a href="#" class="ml-3">فارسی</a></li>
+                <li class="nav-item"><a href="#" class="ml-3">Français</a></li>
+                <li class="nav-item"><a href="#" class="ml-3">Galego</a></li>
+                <li class="nav-item"><a href="#" class="ml-3">한국어</a></li>
+                <li class="nav-item"><a href="#" class="ml-3">Hrvatski</a></li>
+                <li class="nav-item"><a href="#" class="ml-3">Bahasa Indonesia</a></li>
+                <li class="nav-item"><a href="#" class="ml-3">Italiano</a></li>
+                <li class="nav-item"><a href="#" class="ml-3">עברית</a></li>
+                <li class="nav-item"><a href="#" class="ml-3">ქართული</a></li>
+                <li class="nav-item"><a href="#" class="ml-3">Latviešu</a></li>
+                <li class="nav-item"><a href="#" class="ml-3">Lietuvių</a></li>
+                <li class="nav-item"><a href="#" class="ml-3">Magyar</a></li>
+                <li class="nav-item"><a href="#" class="ml-3">Bahasa Melayu</a></li>
+                <li class="nav-item"><a href="#" class="ml-3">Nederlands</a></li>
+                <li class="nav-item"><a href="#" class="ml-3">日本語</a></li>
+                <li class="nav-item"><a href="#" class="ml-3">Norsk</a></li>
+                <li class="nav-item"><a href="#" class="ml-3">Norsk nynorsk</a></li>
+                <li class="nav-item"><a href="#" class="ml-3">Polski</a></li>
+                <li class="nav-item"><a href="#" class="ml-3">Português</a></li>
+                <li class="nav-item"><a href="#" class="ml-3">Română</a></li>
+                <li class="nav-item"><a href="#" class="ml-3">Русский</a></li>
+                <li class="nav-item"><a href="#" class="ml-3">Simple English</a></li>
+                <li class="nav-item"><a href="#" class="ml-3">Slovenčina</a></li>
+                <li class="nav-item"><a href="#" class="ml-3">Slovenščina</a></li>
+                <li class="nav-item"><a href="#" class="ml-3">Српски / srpski</a></li>
+                <li class="nav-item"><a href="#" class="ml-3">Srpskohrvatski / српскохрватски</a></li>
+                <li class="nav-item"><a href="#" class="ml-3">Suomi</a></li>
+                <li class="nav-item"><a href="#" class="ml-3">Svenska</a></li>
+                <li class="nav-item"><a href="#" class="ml-3">ไทย</a></li>
+                <li class="nav-item"><a href="#" class="ml-3">Türkçe</a></li>
+                <li class="nav-item"><a href="#" class="ml-3">Українська</a></li>
+                <li class="nav-item"><a href="#" class="ml-3">Tiếng Việt</a></li>
+                <li class="nav-item"><a href="#" class="ml-3">中文</a></li>
+                <li class="nav-item mb-3"><a href="#" class="ml-3">Complete list</a></li>
+              </ul>
+            </div>
+            <!----Top Nav Bar---->
+            <div class="col-xl-10 col-lg-9 col-md-9 ml-auto fixed-top py-2">
+                <div class="d-flex justify-content-end">
+                    <ul class="navbar-nav">
+                        <li class="nav-item"><a href="#" class="px-2">Not logged in</a></li>
+                        <li class="nav-item"><a href="#" class="px-2">Talk</a></li>
+                        <li class="nav-item"><a href="#" class="px-2">Contributions</a></li>
+                        <li class="nav-item"><a href="#" class="px-2">Create Account</a></li>
+                        <li class="nav-item mr-auto"><a href="#" class="px-2">Log in</a></li>
+                      </ul>
+                </div>
+                <div class="">
+                  fdgdfg
+                </div>
+              </div>
+          </div>
+        </div>
+      </div>
+    </nav>
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
