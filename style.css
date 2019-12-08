@@ -37,3 +37,51 @@ li,a{
     color:#cedff2;
 }
 
+/* Box Styles */
+
+.box{
+    border:1px solid #ddd;
+    background-color:#f9f9f9;
+}
+
+.wiki{
+    color:#0645ad;
+}
+
+
+.wiki:hover > .wiki-box{
+  display:block;
+}
+
+.wiki-box{
+    box-shadow: 2px 3px #f9f9f9;
+    display:none;    
+}
+
+.wiki-img{
+    width:300px;
+    height:auto;
+    border:1px solid #eee;
+    background: white;;
+}
+.wiki-desc{
+    width:300px;
+    height:auto;
+    border:1px solid #eee;    
+    background: white;
+    font-size: 0.9em;
+    padding:1em;
+}
+
+.wiki-cogs{
+    width:20px;
+    height:20px;
+    border:1px solid #eee;
+    box-shadow: 2px 3px #f9f9f9;
+    background: white;
+}
+
+.wiki-cogs:hover{
+    background: #eee;
+}
+
