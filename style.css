@@ -37,6 +37,10 @@ li,a{
     color:#cedff2;
 }
 
+.top-navbar{
+    position:static;
+  }
+
 /* Box Styles */
 
 .box{
@@ -85,3 +89,12 @@ li,a{
     background: #eee;
 }
 
+.box-links{
+    color:#0645ad;
+    font-size:1em;
+}
+
+.box-green{
+    background-color:#f5fffa;
+    border: 1px solid #cef2e0;
+}
