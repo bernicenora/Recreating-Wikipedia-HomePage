@@ -10,9 +10,19 @@
     border-right:1px solid #a2a9b1;
 }
 
-li,a{
+a{
     font-family:sans-serif;
     font-size:0.9em;
+    color:#0645ad;
+}
+
+/8li{
+    font-family:sans-serif;
+    font-size:0.9em;
+}*/
+
+.fontreduce{
+    font-size:0.8em;
 }
 
 .bottom-border{
@@ -49,7 +59,7 @@ li,a{
 }
 
 .wiki{
-    color:#0645ad;
+    color:#0645ad!important;
 }
 
 
@@ -97,4 +107,10 @@ li,a{
 .box-green{
     background-color:#f5fffa;
     border: 1px solid #cef2e0;
+}
+
+.box-dark-green{
+    background-color:#cef2e0;
+    border: 1px solid #a3bfb1;
+    padding-left:0.3em;
 }

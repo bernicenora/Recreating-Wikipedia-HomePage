@@ -15,7 +15,7 @@
   <body>
     <!--Navbar-->
     <nav class="navbar navbar-expand-md navbar-light m-0 p-0">
-        <button class="navbar-toggler mr-auto bg-light" type="button" data-toggle="collapse" data-target="#WikiMobNavBar">
+        <button class="navbar-toggler mr-auto bg-light" type="button" data-toggle="collapse" data-target="#WikiNavBar">
             <span class="navbar-toggler-icon"></span>
           </button>
       <!--Different Navbar When screen size is less than 768px-->
@@ -138,61 +138,65 @@
                 <li class="nav-item mb-3"><a href="#" class="ml-3">Complete list</a></li>
               </ul>
             </div>
-            <!----Top Nav Bar---->
-            <div class="col-xl-10 col-lg-9 col-md-9 py-2 ml-auto fixed-top">
-                
-                <div class="d-flex justify-content-end pb-3 ml-auto">
-                    <ul class="navbar-nav">
-                        <li class="nav-item"><a href="#" class="px-1 text-muted"><i class="fas fa-user mr-1"></i>Not logged in</a></li>
-                        <li class="nav-item"><a href="#" class="px-1">Talk</a></li>
-                        <li class="nav-item"><a href="#" class="px-1">Contributions</a></li>
-                        <li class="nav-item"><a href="#" class="px-1">Create Account</a></li>
-                        <li class="nav-item mr-auto"><a href="#" class="px-1">Log in</a></li>
-                      </ul>
-                </div>
-                <div class="d-flex justify-content-between ml-auto">
-                  
-                    <ul class="navbar-nav">
-                      <li class="nav-item active navitemstyle">
-                        <a class="nav-link" href="#">Main Page</a>
-                      </li>
-                      <li class="nav-item navitemstyle bg-tab-blue navtabstyle">
-                        <a class="nav-link" href="#">Talk</a>
-                      </li>
-                      <li class="nav-item navtabstyle">
-                        <a class="nav-link px-xl-5 mx-xl-5 px-lg-3 mx-lg-3 px-md-2 mx-md-2" href="#"></a>
-                      </li>
-                      <li class="nav-item navtabstyle">
-                        <a class="nav-link px-xl-5 mx-xl-5 px-lg-3 mx-lg-3 px-md-2 mx-md-2" href="#"></a>
-                      </li>
-                      <li class="nav-item navitemstyle navtabstyle">
-                        <a class="nav-link px-xl-3 mx-xl-3 px-lg-3 mx-lg-3 px-md-2 mx-md-2" href="#"></a>
-                      </li>
-                      <li class="nav-item navitemstyle border-bottom-0">
-                        <a class="nav-link border-bottom-0" href="#">Read</a>
-                      </li>
-                      <li class="nav-item navitemstyle bg-tab-blue navtabstyle">
-                        <a class="nav-link" href="#">View Source</a>
-                      </li>
-                      <li class="nav-item navitemstyle bg-tab-blue navtabstyle">
-                        <a class="nav-link" href="#">View History</a>
-                      </li>
-
-                      <form class="form-inline m-auto ml-2 pb-1 navtabstyle px-2">
-                        <div class="input-group">
-                          <input type="text" placeholder="Search" class="form-control border-right-0 border">
-                          <div class="input-group-append">
-                            <button type="button" class="btn border-left-0 border">
-                              <i class="fa fa-search text-muted"></i>
-                            </button>
-                          </div>
-                        </div>
-                      </form>
-                    </ul>
-                    
-                </div>
-              </div>
             
+            
+          </div>
+          <!----Top Nav Bar---->
+          <div class="col-xl-10 col-lg-9 col-md-9 py-2 ml-auto">
+            <!---First section of top nav bar--->
+              <div class="collapse navbar-collapse d-flex justify-content-end pb-3" id="navbarSupportedContent">
+                <ul class="navbar-nav">
+                  <li class="nav-item"><a href="#" class="px-1 text-muted fontreduce"><i class="fas fa-user mr-1"></i>Not logged in</a></li>
+                  <li class="nav-item"><a href="#" class="px-1 fontreduce">Talk</a></li>
+                  <li class="nav-item"><a href="#" class="px-1 fontreduce">Contributions</a></li>
+                  <li class="nav-item"><a href="#" class="px-1 fontreduce">Create Account</a></li>
+                  <li class="nav-item mr-auto"><a href="#" class="px-1 fontreduce">Log in</a></li>
+                </ul>
+              </div>
+              <!---End of first section of top nav bar--->
+              <!---Second section of top nav bar-->
+              <div class="d-flex justify-content-between navtabstyle">
+                  
+                  <ul class="navbar-nav">
+                    <li class="nav-item active navitemstyle border-botom-0">
+                      <a class="nav-link fontreduce" href="#">Main Page</a>
+                    </li>
+                    <li class="nav-item navitemstyle bg-tab-blue">
+                      <a class="nav-link fontreduce wiki" href="#">Talk</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link px-xl-5 mx-xl-5 px-lg-3 mx-lg-3 px-md-2 mx-md-2 fontreduce" href="#"></a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link px-xl-5 mx-xl-5 px-lg-3 mx-lg-3 px-md-2 mx-md-2 fontreduce" href="#"></a>
+                    </li>
+                    <li class="nav-item navitemstyle">
+                      <a class="nav-link px-xl-3 mx-xl-3 px-lg-3 mx-lg-3 px-md-2 mx-md-2 fontreduce" href="#"></a>
+                    </li>
+                    <li class="nav-item navitemstyle border-bottom-0">
+                      <a class="nav-link border-bottom-0 fontreduce" href="#">Read</a>
+                    </li>
+                    <li class="nav-item navitemstyle bg-tab-blue">
+                      <a class="nav-link fontreduce wiki" href="#">View Source</a>
+                    </li>
+                    <li class="nav-item navitemstyle bg-tab-blue">
+                      <a class="nav-link fontreduce wiki" href="#">View History</a>
+                    </li>
+
+                    <form class="form-inline m-auto ml-2 pb-1 px-2">
+                      <div class="input-group">
+                        <input type="text" placeholder="Search Wikipedia" class="form-control border-right-0 border fontreduce">
+                        <div class="input-group-append">
+                          <button type="button" class="btn border-left-0 border fontreduce">
+                            <i class="fa fa-search text-muted"></i>
+                          </button>
+                        </div>
+                      </div>
+                    </form>
+                  </ul>
+                  
+              </div>
+              <!---End of the second part of the top navbar--->
           </div>
         </div>
       </div>
@@ -203,15 +207,15 @@
 <section>
   <div class="container-fluid">
     <div class="row">
-      <div class="col-xl-10 col-lg-9 col-md-9 ml-auto mt-5 pt-4">
-        <div class="box d-flex mt-5 pt-2">
+      <div class="col-xl-10 col-lg-9 col-md-9 ml-auto pt-4">
+        <div class="box d-flex pt-1 pb-0">
           <div class="col-xl-8 text-center d-flex justify-content-start">
             <p><span class="text-capitalize h3">welcome to <a href="#" class="wiki">wikipedia</a></span>,<br>
           
             the <a href="#" class="wiki">free</a> <a href="#" class="wiki">encyclopedia</a> that <a href="#" class="wiki">anyone can edit</a>.<br>
             <a href="#" class="wiki">5,979,256</a> articles in <a href="#" class="wiki">English</a></p>
           </div>
-          <div class="col-xl-4 d-flex justify-content-end align-items-center">
+          <div class="col-xl-4 d-sm-flex justify-content-end align-items-center">
             <div class="col-lg-4">
               <ul>
                 <li><a href="#" class="text-capitalize box-links">Lorem</a></li>
@@ -248,9 +252,36 @@
       <!---Featured Article --->
       <div class="col-xl-7">
         <div class="box-green p-3">
-          <h1>From today's featured article</h1>
-          <img src="images/wiki1.jpg" width="50%">
-          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Atque temporibus hic tempora quos laborum, perferendis eveniet nihil aliquid animi pariatur vel architecto praesentium rem neque ipsa, excepturi beatae vitae nostrum, aspernatur tempore ex adipisci! Ex fugiat in ad corrupti quia quisquam nam officia qui? Voluptas ad harum doloremque, corrupti earum sunt quo inventore fugiat at dignissimos neque ullam. Similique voluptatibus id, deleniti sint quidem necessitatibus illo nulla. Distinctio reprehenderit impedit repudiandae praesentium? Delectus explicabo quo cumque illum nostrum, officiis minus possimus, aliquam assumenda blanditiis fugiat reiciendis, deleniti porro voluptatem. Incidunt repellendus rerum possimus dolore mollitia facilis quos esse perspiciatis error laboriosam vitae commodi nostrum provident voluptas doloribus illum distinctio, necessitatibus numquam sapiente itaque illo? Odit alias officiis provident nihil placeat? Eius soluta ipsa molestiae laborum dolorem commodi fugiat in dolor, alias, fugit delectus nemo iste! Exercitationem cupiditate quasi harum molestiae, sint consequatur dolor quaerat dolorem illo dicta non adipisci libero quam illum dolores unde, nobis, provident atque ut corrupti veniam magnam vero quidem. Debitis nulla magni ea laborum nemo pariatur dolore rem adipisci id unde, blanditiis quidem quasi voluptatibus quaerat laboriosam sapiente! Eos error itaque consectetur quod! Dignissimos, ipsum aliquid? Est laboriosam voluptates, itaque optio eveniet at doloribus reiciendis corporis?</p>
+          <h5 class="font-weight-bold box-dark-green pl-3 py-1">From today's featured article</h5>
+          <img src="images/wiki1.jpg" width="50%" style="float:left;" class="pl-1 pr-2">
+          <p class="pl-1">Lorem ipsum dolor, sit amet consectetur adipisicing elit. <a href="#">Atque</a> temporibus hic tempora quos <a href="#">laborum</a>, perferendis eveniet nihil aliquid animi pariatur vel architecto <a href="#">praesentium</a> rem neque ipsa, excepturi beatae vitae nostrum, aspernatur <a href="#">tempore</a> ex adipisci! Ex fugiat in ad corrupti quia quisquam nam officia qui? Voluptas ad harum doloremque, corrupti earum sunt quo inventore fugiat at dignissimos neque ullam. Similique voluptatibus id, deleniti sint quidem necessitatibus illo nulla. Distinctio reprehenderit impedit repudiandae praesentium? Delectus explicabo quo cumque illum nostrum, officiis minus possimus, aliquam assumenda blanditiis fugiat reiciendis, deleniti porro voluptatem. Incidunt repellendus rerum possimus dolore mollitia facilis quos esse perspiciatis error laboriosam vitae commodi nostrum provident voluptas doloribus illum distinctio, necessitatibus numquam sapiente itaque illo? Odit alias officiis provident nihil placeat? Eius soluta ipsa molestiae laborum dolorem commodi fugiat in dolor, alias, fugit delectus nemo iste! Exercitationem cupiditate quasi harum molestiae, sint consequatur dolor quaerat dolorem illo dicta non adipisci libero quam illum dolores unde, nobis, provident atque ut corrupti veniam magnam vero quidem. Debitis nulla magni ea laborum nemo pariatur dolore rem adipisci id unde, blanditiis quidem quasi voluptatibus quaerat laboriosam sapiente! Eos error itaque consectetur quod! Dignissimos, ipsum aliquid? Est laboriosam voluptates, itaque optio eveniet at doloribus reiciendis corporis?
+            (<a href="#" class="font-weight-bold">Full article...</a>)</p>
+
+            <h5 class="font-weight-bold box-dark-green pl-3 py-1">Did you know?</h5>
+            <p class="pl-1">             
+              <div class="d-block">
+              <img src="images/wiki2.jpg" alt="Wiki 2" width="45%"  style="float:right;">             
+                <p style="float:right;clear:both">gdgadfsg</p>
+              </div>
+              
+              <ul class="">
+                <li class="pb-1">... that ipsum dolor sit amet, <a href="#">consectetur</a> adipiscing elit,Mauris in ipsum egestas, <a href="#" class="font-weight-bold">dignissim</a> est et, sodales dolor?</li>
+                <li class="pb-1">... that Phasellus scelerisque nibh mollis, <a href="#" class="font-weight-bold">faucibus</a> leo sit amet, vulputate velit,Suspendisse <a href="#">aliquam</a> sapien quis mi vestibulum, a imperdiet massa fringilla?</li>
+                <li class="pb-1">... that <a href="#">Nulla</a> id ex vitae tellus cursus <a href="#">interdum</a> vitae in nisl,Morbi molestie ligula id libero <a href="#">pulvinar</a>, vel imperdiet ligula iaculis?</li>
+                <li class="pb-1">... that Vivamus ornare erat a ipsum sodales convallis,<a href="#">Maecenas</a> fringilla sapien et tortor <a href="#" class="font-weight-bold">vestibulum</a> elementum?</li>
+                <li class="pb-1">... that Nam <a href="#" class="font-weight-bold">pellentesque</a> turpis eu condimentum mollis,Sed at massa et tortor mattis sagittis?</li>
+                <li class="pb-1">... that Donec <a href="#">sollicitudin</a> enim vel suscipit porttitor,Curabitur maximus leo in purus bibendum finibus?</li>
+                <li class="pb-1">... that Vivamus maximus justo vitae enim <a href="#">dapibus</a>, consequat ultrices odio venenatis,Proin ac neque et velit scelerisque feugiat id eget neque?</li>
+                <li class="pb-1">... that <a href="#">Pellentesque</a> dapibus quam nec erat <a href="#" class="font-weight-bold">pretium</a> maximus,Nunc consectetur sapien congue, aliquam ante ut, efficitur tortor?</li>
+              </ul>
+              
+                <ul class="d-flex justify-content-end">
+                  <li style="list-style-type: none;"><a href="#" class="px-3 mx-1 font-weight-bold">Archive</a></li>
+                  <li><a href="#" class="px-3 mx-1 font-weight-bold"> Start a new article</a></li>
+                  <li><a href="#" class="px-3 mx-1 font-weight-bold"> Nominate an article</a></li>
+                </ul>
+              
+            </p>
         </div>
       </div>
       <!---End of Featured Article --->
