@@ -21,6 +21,10 @@ navbar-nav li{
     font-size:0.9em;
 }
 
+.remove-bullet{
+    list-style-type:none;
+}
+
 .fontreduce{
     font-size:0.8em;
 }
@@ -114,3 +118,37 @@ navbar-nav li{
     border: 1px solid #a3bfb1;
     padding-left:0.3em;
 }
+
+.box-blue{
+    background-color:#f5faff;
+    border: 1px solid #cedff2;
+}
+
+.box-dark-blue{
+    background-color:#cedff2;
+    border: 1px solid #a3b0bf;
+    padding-left:0.3em;
+}
+
+.box-pink{
+    background-color:#faf5ff;
+    border: 1px solid #ddcef2;
+}
+
+.box-dark-pink{
+    background-color:#ddcef2;
+    border: 1px solid #afa3bf;
+    padding-left:0.3em;
+}
+
+.box-grey{
+    background-color:#fff;
+    border: 1px solid #e2e2e2;
+}
+
+.box-dark-grey{
+    background-color:#eeeeee;
+    border: 1px solid #ddd;
+    padding-left:0.3em;
+}
+
